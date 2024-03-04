@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Noto+Serif:wght@300&family=Protest+Strike&family=Racing+Sans+One&family=Raleway:wght@300;400&display=swap');
+
+
+#logo-img{
+    width: 140px;
+    height: auto;
+    float: left;
+
+}
+#navbar-logo{
+    float: left;
+    margin-top: -10px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#Netspeedlogotext{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    text-underline: none;
+}
+#nav-items{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+.homebutton{
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 1;
+    color: black;
+}
+.homebutton:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+.homebutton:hover{
+    color: white;
+}
+.userLogin{
+    display: inline-block;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-top: -10px;
+    padding: 0.65em 1.6em;
+    border: 3px solid #ffffff;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+}
+.userLogin:hover {
+    background-color: white;
+    color: #000000;
+}
+@keyframes userLogin {
+    0% {
+        top: 0;
+    }
+    40% {
+        top: 0;
+    }
+    43% {
+        top: -0.9em;
+    }
+    46% {
+        top: 0;
+    }
+    48% {
+        top: -0.4em;
+    }
+    50% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
+}
+.homebutton:hover:after{
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+.homebutton:active{
+    top: 2px;
+}
+.nav-link{
+    text-decoration: none;
+}
+#navlinks{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+}
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+#main-nav{
+    position: fixed;
+   top: 0;
+
+}

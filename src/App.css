@@ -37,3 +37,24 @@
     transform: translateY(0px);
   }
 }
+@keyframes unravel {
+  0% { content: ''; }
+  10% { content: 'N'; }
+  20% { content: 'NE'; }
+  30% { content: 'NET'; }
+  40% { content: 'NETX'; }
+  50% { content: 'NETXS'; }
+  60% { content: 'NETXSP'; }
+  70% { content: 'NETXSPE'; }
+  80% { content: 'NETXSPEE'; }
+  90% { content: 'NETXSPEED'; }
+  100% { content: 'NETXSPEED'; }
+}
+
+.loading-text {
+  font-size: 24px;
+  font-weight: bold;
+  animation: unravel 2s steps(10) forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
