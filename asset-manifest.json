@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ZeradamK/NetXSpeed.git/static/css/main.9a386ebe.css",
-    "main.js": "/ZeradamK/NetXSpeed.git/static/js/main.027795ec.js",
-    "static/media/googleLogo.png": "/ZeradamK/NetXSpeed.git/static/media/googleLogo.6c936fa074a63db04a0f.png",
-    "static/media/logo.webp": "/ZeradamK/NetXSpeed.git/static/media/logo.eee8a47bd6b38f8e02d9.webp",
-    "index.html": "/ZeradamK/NetXSpeed.git/index.html",
-    "main.9a386ebe.css.map": "/ZeradamK/NetXSpeed.git/static/css/main.9a386ebe.css.map",
-    "main.027795ec.js.map": "/ZeradamK/NetXSpeed.git/static/js/main.027795ec.js.map"
+    "main.css": "/https//:ZeradamK.github.io/NetXSpeed/static/css/main.9a386ebe.css",
+    "main.js": "/https//:ZeradamK.github.io/NetXSpeed/static/js/main.c891224d.js",
+    "static/media/googleLogo.png": "/https//:ZeradamK.github.io/NetXSpeed/static/media/googleLogo.6c936fa074a63db04a0f.png",
+    "static/media/logo.webp": "/https//:ZeradamK.github.io/NetXSpeed/static/media/logo.eee8a47bd6b38f8e02d9.webp",
+    "index.html": "/https//:ZeradamK.github.io/NetXSpeed/index.html",
+    "main.9a386ebe.css.map": "/https//:ZeradamK.github.io/NetXSpeed/static/css/main.9a386ebe.css.map",
+    "main.c891224d.js.map": "/https//:ZeradamK.github.io/NetXSpeed/static/js/main.c891224d.js.map"
   },
   "entrypoints": [
     "static/css/main.9a386ebe.css",
-    "static/js/main.027795ec.js"
+    "static/js/main.c891224d.js"
   ]
 }
